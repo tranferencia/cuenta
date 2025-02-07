@@ -1,4 +1,3 @@
- <script>
     function copyToClipboard() {
       const accountInfo = document.getElementById("account-info").innerText;
       const textarea = document.createElement("textarea");
@@ -14,4 +13,3 @@
         successMessage.style.display = "none";
       }, 2000);
     }
-  </script>
