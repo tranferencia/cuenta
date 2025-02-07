@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
     function copyToClipboard() {
       const accountInfo = document.getElementById("account-info").innerText;
       const textarea = document.createElement("textarea");
@@ -12,4 +13,4 @@
       setTimeout(() => {
         successMessage.style.display = "none";
       }, 2000);
-    }
+    }}
